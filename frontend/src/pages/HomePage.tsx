@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { BiPlus } from "react-icons/bi";
 import { Link } from "react-router-dom";
-import AllNotes from "./AllNotes";
+import AllNotes from "../Components/AllNotes";
 import Logout from "./Auth/Logout";
 import { useState } from "react";
 

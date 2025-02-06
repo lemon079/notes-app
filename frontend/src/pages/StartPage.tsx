@@ -1,13 +1,13 @@
 import { Box, Button, Heading, HStack } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 
-const NotesApp = () => {
+const StartPage = () => {
   const navigate = useNavigate();
 
   const handleSignup = () => {
     navigate('/signup')
   };
-  
+
   const handleLogin = () => {
     navigate('/login')
   };
@@ -36,4 +36,4 @@ const NotesApp = () => {
   );
 };
 
-export default NotesApp;
+export default StartPage;

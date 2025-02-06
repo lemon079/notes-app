@@ -18,8 +18,8 @@ import { FaCheck } from "react-icons/fa6";
 import { useAppDispatch, useAppSelector } from "../Redux/hooks";
 import { editNote } from "../Redux/NotesSlice";
 import { useNavigate } from "react-router-dom";
-import GoBackButton from "./UtilityComponents/GoBackButton";
-import PrimaryHeading from "./UtilityComponents/PrimaryHeading";
+import GoBackButton from "../Components/utils/GoBackButton";
+import PrimaryHeading from "../Components/utils/PrimaryHeading";
 
 type INPUTELEMENTCSSTYPE = {
   inputElementCSS: SystemStyleObject;

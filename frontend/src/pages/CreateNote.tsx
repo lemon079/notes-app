@@ -18,8 +18,8 @@ import { FaCheck } from "react-icons/fa6";
 import { useAppDispatch, useAppSelector } from "../Redux/hooks";
 import { useNavigate } from "react-router-dom";
 import { createNote } from "../Redux/NotesSlice";
-import PrimaryHeading from "./UtilityComponents/PrimaryHeading";
-import GoBackButton from "./UtilityComponents/GoBackButton";
+import PrimaryHeading from "../Components/utils/PrimaryHeading";
+import GoBackButton from "../Components/utils/GoBackButton";
 
 type CreateNoteProps = {
   inputElementCSS: SystemStyleObject;

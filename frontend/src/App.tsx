@@ -2,15 +2,15 @@ import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Suspense } from "react";
 import { Box, Flex, useDisclosure } from "@chakra-ui/react";
-import Loading from "./Components/UtilityComponents/Loading";
-import Signup from "./Components/Auth/Signup";
-import NotesApp from "./Components/NotesApp";
-import Login from "./Components/Auth/Login";
-import ProtectedRoute from "./Components/Routes/ProtectedRoute";
-import HomePage from "./Components/HomePage";
-import CreateNote from "./Components/CreateNote";
+import Loading from "./Components/utils/Loading";
+import Signup from "./pages/Auth/Signup";
+import NotesApp from "./pages/StartPage";
+import Login from "./pages/Auth/Login";
+import ProtectedRoute from "./Components/ProtectedRoute";
+import HomePage from "./pages/HomePage";
+import CreateNote from "./pages/CreateNote";
 import DeleteNote from "./Components/DeleteNote";
-import EditNote from "./Components/EditNote";
+import EditNote from "./pages/EditNote";
 
 function App() {
   const allNotesContainer = {
